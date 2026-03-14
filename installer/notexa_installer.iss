@@ -3,7 +3,7 @@
 #define MyAppPublisher "Notexa"
 #define MyAppURL "https://notexa.app"
 #define MyAppExeName "Notexa.exe"
-#define SourceDir "D:\Projects\app\AppFlowy\frontend\appflowy_flutter\build\windows\x64\runner\Release"
+#define SourceDir "D:\Projects\latest\Notexa\frontend\appflowy_flutter\build\windows\x64\runner\Release"
 
 [Setup]
 AppId={{B3A2C1D4-E5F6-7890-ABCD-EF1234567890}
@@ -17,9 +17,9 @@ DefaultDirName={autopf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 AllowNoIcons=yes
 LicenseFile=
-OutputDir=D:\Projects\app\AppFlowy\installer\output
+OutputDir=D:\Projects\latest\Notexa\installer\output
 OutputBaseFilename=Notexa-Setup-{#MyAppVersion}
-SetupIconFile=
+SetupIconFile=D:\Projects\latest\Notexa\frontend\appflowy_flutter\notexa_logo.ico
 Compression=lzma2/ultra64
 SolidCompression=yes
 WizardStyle=modern

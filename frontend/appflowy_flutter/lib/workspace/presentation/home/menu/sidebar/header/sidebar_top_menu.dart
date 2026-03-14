@@ -31,7 +31,7 @@ class SidebarTopMenu extends StatelessWidget {
   Widget build(BuildContext context) {
     return BlocBuilder<SidebarSectionsBloc, SidebarSectionsState>(
       builder: (context, _) => SizedBox(
-        height: !UniversalPlatform.isWindows ? HomeSizes.topBarHeight : 45,
+        height: !UniversalPlatform.isWindows ? HomeSizes.topBarHeight : 55,
         child: MoveWindowDetector(
           child: Row(
             children: [
@@ -55,20 +55,20 @@ class SidebarTopMenu extends StatelessWidget {
         : Colors.black;
 
     return Padding(
-      padding: const EdgeInsets.only(top: 12.0, left: 8),
+      padding: const EdgeInsets.only(top: 10.0, left: 10),
       child: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
           FlowySvg(
             FlowySvgs.app_logo_xl,
-            size: const Size(26, 26),
+            size: const Size(36, 36),
             blendMode: null,
           ),
           const SizedBox(width: 8),
           Text(
             'Notexa',
             style: TextStyle(
-              fontSize: 16,
+              fontSize: 22,
               fontWeight: FontWeight.w700,
               color: textColor,
               height: 1,
