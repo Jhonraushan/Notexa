@@ -341,7 +341,7 @@ class _SidebarState extends State<_Sidebar> {
           ),
         ),
         child: Column(
-          mainAxisSize: MainAxisSize.min,
+          mainAxisSize: MainAxisSize.max,
           children: [
             // top menu
             Padding(

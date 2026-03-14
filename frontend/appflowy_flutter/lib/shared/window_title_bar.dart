@@ -74,7 +74,7 @@ class _WindowTitleBarState extends State<WindowTitleBar> {
     return Container(
       height: 40,
       decoration: BoxDecoration(
-        color: Theme.of(context).colorScheme.surfaceContainerHighest,
+        color: Theme.of(context).colorScheme.surface,
       ),
       child: DragToMoveArea(
         child: Row(
